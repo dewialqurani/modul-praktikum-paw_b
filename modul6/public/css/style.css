@@ -1,0 +1,103 @@
+body{
+    background-color: #ffffff;
+}
+
+.about{
+    background-color: rgb(255, 255, 255);
+    width: 1000px;
+    margin: auto;
+}
+.about-utm img,
+.about-informatika img{
+    margin: auto;
+    padding: 10px 0px;
+}
+.about-utm .title, 
+.about-utm .content,
+.about-informatika .title,
+.about-informatika .content
+{
+    margin: 10px 95px;
+}
+.about-utm .title h2{
+    padding: 0px 0px;
+}
+.container a{
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Calypsoka One';
+    font-size: 2em;
+    font-weight: 150;
+}
+@font-face {
+    font-family: 'Calypsoka One';
+    src: url("CalypsokaOne.ttf");
+}
+.footer{
+    background-color: #0574e4;
+    height: 40px;
+    text-align: center;
+}
+.footer p{
+    color: black;
+    font-size: 15px;
+    line-height: 40px;
+}
+
+/* Bagian About */
+.content-about{
+    width: 90%;
+    height: 567px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.image-people{
+    margin: 60px 20px;
+}
+.image-people img{
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 8px rgb(0, 0, 0);
+}
+
+.content-sidebar{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+
+.content-sidebar .profile{
+    text-align: center;
+}
+
+.main-content{
+    width: 100%;
+}
+
+
+.title-biodata h3{
+    margin: 40px 0px;
+    text-align: center;
+}
+
+.biodata{
+    margin: 0px 90px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+
+
+/* Tugas Pendahuluan */
+
+.content-pendahuluan{
+
+    margin: 20px auto;
+    width: 70%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:18px ;
+}
+.title-tugas{
+    margin: 20px 0px;
+}
